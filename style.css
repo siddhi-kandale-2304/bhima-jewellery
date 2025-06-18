@@ -241,3 +241,43 @@ body {
     color: inherit !important;
   }
 }
+/* Force Light Theme Even in Dark Mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #FAF9F6 !important;
+    color: #333 !important;
+  }
+
+  .header,
+  .features,
+  .secondary-navbar,
+  .footer,
+  .feature,
+  .toaster {
+    background-color: #FAF9F6 !important;
+    color: #333 !important;
+    box-shadow: none !important;
+  }
+
+  .feature p,
+  .footer,
+  .footer p,
+  .footer-section h3,
+  .footer-section ul li {
+    color: #333 !important;
+  }
+
+  .feature {
+    background-color: #fff !important;
+  }
+
+  .toaster {
+    background-color: #A48D78 !important;
+    color: #fff !important;
+  }
+
+  .arrow {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    color: #fff !important;
+  }
+}
