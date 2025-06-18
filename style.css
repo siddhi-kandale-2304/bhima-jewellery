@@ -225,3 +225,19 @@ body {
   display: none;
   z-index: 100;
 }
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #FAF9F6 !important;
+    color: #333 !important;
+  }
+
+  .feature p,
+  .footer,
+  .footer-section,
+  .secondary-navbar,
+  .feature,
+  .header {
+    background-color: inherit !important;
+    color: inherit !important;
+  }
+}
