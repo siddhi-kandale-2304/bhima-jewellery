@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: 'Playfair Display', serif;
-  background-color: #faf9f6;
-  color: #333;
+  background-color: #FAF9F6;
+  color: #333 !important;
 }
 
 .header {
@@ -17,8 +17,8 @@ body {
 }
 
 .secondary-navbar {
-  background-color: #f4f1ea;
-  color: #a58e73;
+  background-color: #F4F1EA;
+  color: #A48D78 !important;
   text-align: center;
   font-family: 'Playfair Display', serif;
   font-style: italic;
@@ -32,7 +32,7 @@ body {
 
 .features {
   padding: 1rem;
-  background: #cbb9a4;
+  background: #E6DAC8;
   display: flex;
   justify-content: center;
 }
@@ -45,7 +45,7 @@ body {
 }
 
 .feature {
-  background-color: #fff;
+  background-color: #FFFFFF;
   border-radius: 50%;
   width: 80px;
   height: 80px;
@@ -66,7 +66,7 @@ body {
 .feature p {
   font-size: 0.7rem;
   margin: 0;
-  color: #000;
+  color: #333 !important;
 }
 
 .feature:hover {
@@ -116,9 +116,9 @@ body {
 }
 
 .footer {
-  background-color: #a48d78;
+  background-color: #A48D78;
   padding: 2rem 1rem;
-  color: BLACK;
+  color: #FAF9F6 !important;
 }
 
 .footer-container {
@@ -147,6 +147,11 @@ body {
   text-align: center;
   margin-top: 2rem;
   font-size: 0.85rem;
+  color: #FAF9F6 !important;
+}
+
+#user-name-display {
+  color: #333 !important;
 }
 
 @media (max-width: 768px) {
@@ -171,6 +176,7 @@ body {
 
   .feature p {
     font-size: 0.65rem;
+    color: #333 !important;
   }
 }
 
@@ -188,11 +194,15 @@ body {
   .footer p {
     margin-top: 1.5rem;
   }
+
+  .feature p {
+    color: #333 !important;
+  }
 }
 
 .red-diamond-icon {
-  width: 26px;
-  height: 26px;
+  width: 30px;
+  height: 30px;
   margin-left: 10px;
   cursor: default;
   transition: transform 0.3s ease;
@@ -207,7 +217,7 @@ body {
   bottom: 10%;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #a48d78;
+  background-color: #A48D78;
   color: white;
   padding: 0.7rem 1.2rem;
   border-radius: 20px;
