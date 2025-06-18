@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bhima Jewellery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Top Navbar -->
+  <header class="header">
+    <div class="nav-left">
+      <img src="images/logo.png" alt="Bhima Logo" class="logo" />
+    </div>
+    <span class="diamond-emoji">
+      <img src="images/red Diamond.png" alt="Red Diamond" class="red-diamond-icon">
+    </span>
+  </header>
+
+  <div class="secondary-navbar">
+    <p>WELLCOME!!</p>
+  </div>
+
+  <!-- Slider -->
+  <section class="slider">
+    <div class="slides-container">
+      <div class="slides" id="slides">
+        <img src="images/banner.jpg" alt="Banner 1" />
+        <img src="images/banner1.jpg" alt="Banner 2" />
+        <img src="images/banner2.jpg" alt="Banner 3" />
+      </div>
+      <div class="arrow left" id="prev">&#10094;</div>
+      <div class="arrow right" id="next">&#10095;</div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+<section class="features">
+  <div class="feature-grid">
+    <div class="feature" onclick="navigateToScheme()"><img src="images/icon1.png"><p>Scheme</p></div>
+    <div class="feature" onclick="navigateToBankDetails()"><img src="images/icon2.png"><p>Bank</p></div>
+    <div class="feature" onclick="navigateToKyc()"><img src="images/icon3.png"><p>KYC</p></div>
+    <div class="feature" onclick="navigateToRate()"><img src="images/icon4.png"><p>Rate</p></div>
+    <div class="feature" onclick="navigateSchemeRecords()"><img src="images/icon5.png"><p>Records</p></div>
+    <div class="feature" onclick="navigateToCustomerCard()"><img src="images/icon6.png"><p>Card</p></div>
+    <div class="feature" onclick="navigateTransactionHistory()"><img src="images/icon7.png"><p>History</p></div>
+    <div class="feature" onclick="navigateToMyOrder()"><img src="images/icon8.png"><p>Order</p></div>
+    <div class="feature" onclick="navigateToUserProfile()"><img src="images/icon9.png"><p>Profile</p></div>
+    <div class="feature" onclick="navigateToDigitalGold()"><img src="images/icon10.png"><p>Gold</p></div>
+    <div class="feature" onclick="navigateToPanchang()"><img src="images/icon11.png"><p>Panchang</p></div>
+    <div class="feature" onclick="navigateToSetting()"><img src="images/icon12.png"><p>Settings</p></div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>Visit Us</h3>
+        <p>Mahatma Gandhi Rd, near Ayurveda College, Ayurveda College Junction, Vanchiyoor, Thiruvananthapuram, Kerala 695001</p>
+      </div>
+      <div class="footer-section">
+        <h3>About Us</h3>
+        <ul>
+          <li>Bhima Promise</li>
+          <li>Contact: 1234567890</li>
+          <li>Email: abc@gmail.com</li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Exclusive Services</h3>
+        <ul>
+          <li>Free Shipping</li>
+          <li>Exchanges</li>
+          <li>In-Store Pickup</li>
+          <li>Gift Wrap</li>
+          <li>Lifetime Exchange</li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-copy">© Bhima Jewellery 2025 (V-2.0.0)</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
