@@ -119,7 +119,7 @@ body {
 .footer {
   background-color: #A48D78;
   padding: 2rem 1rem;
-  color: #FAF9F6;
+  color: black;
 }
 
 .footer-container {
@@ -132,7 +132,7 @@ body {
 .footer-section h3 {
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
-  color: #FAF9F6;
+  color: black;
 }
 
 .footer-section ul {
@@ -143,17 +143,17 @@ body {
 
 .footer-section ul li {
   margin: 0.3rem 0;
-  color: #FAF9F6;
+  color: black;
 }
 
 .footer p {
   text-align: center;
   margin-top: 2rem;
   font-size: 0.85rem;
-  color: #FAF9F6;
+  color: black;
 }
 
-/* Responsive */
+/* Responsive Design */
 @media (max-width: 768px) {
   .secondary-navbar {
     font-size: 1rem;
@@ -208,7 +208,7 @@ body {
   transform: scale(1.1) rotate(-5deg);
 }
 
-/* Toaster */
+/* Toaster Notification */
 .toaster {
   position: fixed;
   bottom: 10%;
@@ -221,23 +221,4 @@ body {
   font-size: 0.9rem;
   display: none;
   z-index: 100;
-}
-
-/* 💡 Prevent dark mode from affecting your theme */
-@media (prefers-color-scheme: dark) {
-  body,
-  .header,
-  .secondary-navbar,
-  .features,
-  .feature,
-  .footer,
-  .footer-section,
-  .toaster,
-  .feature p,
-  .footer-section h3,
-  .footer-section ul li,
-  .footer p {
-    background-color: unset !important;
-    color: unset !important;
-  }
 }
