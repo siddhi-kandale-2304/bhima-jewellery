@@ -1,8 +1,9 @@
+/* Base Styles */
 body {
   margin: 0;
   font-family: 'Playfair Display', serif;
   background-color: #FAF9F6;
-  color: #333 !important;
+  color: #333;
 }
 
 .header {
@@ -18,7 +19,7 @@ body {
 
 .secondary-navbar {
   background-color: #F4F1EA;
-  color: #A48D78 !important;
+  color: #A48D78;
   text-align: center;
   font-family: 'Playfair Display', serif;
   font-style: italic;
@@ -66,7 +67,7 @@ body {
 .feature p {
   font-size: 0.7rem;
   margin: 0;
-  color: #333 !important;
+  color: black;
 }
 
 .feature:hover {
@@ -118,7 +119,7 @@ body {
 .footer {
   background-color: #A48D78;
   padding: 2rem 1rem;
-  color: #FAF9F6 !important;
+  color: black;
 }
 
 .footer-container {
@@ -131,6 +132,7 @@ body {
 .footer-section h3 {
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
+  color: black;
 }
 
 .footer-section ul {
@@ -141,19 +143,17 @@ body {
 
 .footer-section ul li {
   margin: 0.3rem 0;
+  color: black;
 }
 
 .footer p {
   text-align: center;
   margin-top: 2rem;
   font-size: 0.85rem;
-  color: #FAF9F6 !important;
+  color: black;
 }
 
-#user-name-display {
-  color: #333 !important;
-}
-
+/* Responsive Design */
 @media (max-width: 768px) {
   .secondary-navbar {
     font-size: 1rem;
@@ -176,7 +176,6 @@ body {
 
   .feature p {
     font-size: 0.65rem;
-    color: #333 !important;
   }
 }
 
@@ -194,12 +193,9 @@ body {
   .footer p {
     margin-top: 1.5rem;
   }
-
-  .feature p {
-    color: #333 !important;
-  }
 }
 
+/* Icons */
 .red-diamond-icon {
   width: 30px;
   height: 30px;
@@ -212,6 +208,7 @@ body {
   transform: scale(1.1) rotate(-5deg);
 }
 
+/* Toaster Notification */
 .toaster {
   position: fixed;
   bottom: 10%;
@@ -224,20 +221,4 @@ body {
   font-size: 0.9rem;
   display: none;
   z-index: 100;
-}
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #FAF9F6 !important;
-    color: #333 !important;
-  }
-
-  .feature p,
-  .footer,
-  .footer-section,
-  .secondary-navbar,
-  .feature,
-  .header {
-    background-color: inherit !important;
-    color: inherit !important;
-  }
 }
